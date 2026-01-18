@@ -643,6 +643,14 @@ nav{
   margin-left: 0.5rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
 .flex{
   display: flex;
 }
@@ -669,6 +677,14 @@ nav{
 
 .h-10{
   height: 2.5rem;
+}
+
+.h-12{
+  height: 3rem;
+}
+
+.h-24{
+  height: 6rem;
 }
 
 .min-h-screen{
@@ -759,6 +775,10 @@ nav{
   border-radius: 0.75rem;
 }
 
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
 .rounded-e-full{
   border-start-end-radius: 9999px;
   border-end-end-radius: 9999px;
@@ -837,6 +857,11 @@ nav{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
 
 .fill-gray-400{
@@ -959,6 +984,11 @@ nav{
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold{
