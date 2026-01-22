@@ -619,14 +619,14 @@ nav{
   margin-bottom: 0.75rem;
 }
 
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .-mt-10{
@@ -639,6 +639,10 @@ nav{
 
 .mb-3{
   margin-bottom: 0.75rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .mb-5{
@@ -794,6 +798,11 @@ nav{
   border-end-end-radius: 9999px;
 }
 
+.rounded-e-xl{
+  border-start-end-radius: 0.75rem;
+  border-end-end-radius: 0.75rem;
+}
+
 .rounded-s-full{
   border-start-start-radius: 9999px;
   border-end-start-radius: 9999px;
@@ -802,11 +811,6 @@ nav{
 .rounded-t-\[50px\]{
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-}
-
-.rounded-e-xl{
-  border-start-end-radius: 0.75rem;
-  border-end-end-radius: 0.75rem;
 }
 
 .border-\[1\.5px\]{
@@ -970,12 +974,12 @@ nav{
   padding-bottom: 2.5rem;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
-}
-
 .pb-20{
   padding-bottom: 5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .pt-10{
