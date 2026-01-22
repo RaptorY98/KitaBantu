@@ -609,6 +609,11 @@ nav{
   margin-bottom: 2.5rem;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -619,9 +624,9 @@ nav{
   margin-bottom: 1.25rem;
 }
 
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .-mt-10{
@@ -799,6 +804,11 @@ nav{
   border-top-right-radius: 50px;
 }
 
+.rounded-e-xl{
+  border-start-end-radius: 0.75rem;
+  border-end-end-radius: 0.75rem;
+}
+
 .border-\[1\.5px\]{
   border-width: 1.5px;
 }
@@ -951,9 +961,9 @@ nav{
   padding-bottom: 1.25rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-10{
@@ -962,6 +972,14 @@ nav{
 
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
