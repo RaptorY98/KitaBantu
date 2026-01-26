@@ -646,6 +646,11 @@ nav{
   margin-bottom: 1.25rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .-mt-10{
   margin-top: -2.5rem;
 }
@@ -676,6 +681,10 @@ nav{
 
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .flex{
@@ -1020,16 +1029,12 @@ nav{
   padding-bottom: 1rem;
 }
 
-.pt-10{
-  padding-top: 2.5rem;
-}
-
-.pr-2{
-  padding-right: 0.5rem;
-}
-
 .pr-4{
   padding-right: 1rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
