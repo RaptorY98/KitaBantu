@@ -586,12 +586,29 @@ nav{
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
 .sticky{
   position: sticky;
 }
 
+.inset-y-0{
+  top: 0px;
+  bottom: 0px;
+}
+
 .bottom-0{
   bottom: 0px;
+}
+
+.right-0{
+  right: 0px;
 }
 
 .mx-7{
@@ -689,10 +706,6 @@ nav{
   height: 6rem;
 }
 
-.h-96{
-  height: 24rem;
-}
-
 .h-40{
   height: 10rem;
 }
@@ -717,16 +730,12 @@ nav{
   width: 66.666667%;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-96{
-  width: 24rem;
-}
-
 .w-40{
   width: 10rem;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-screen-sm{
@@ -854,6 +863,11 @@ nav{
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
 
+.border-gray-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+}
+
 .border-b-gray-200{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
@@ -899,6 +913,10 @@ nav{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.fill-gray-200{
+  fill: #e5e7eb;
+}
+
 .fill-gray-400{
   fill: #9ca3af;
 }
@@ -909,10 +927,6 @@ nav{
 
 .fill-white{
   fill: #fff;
-}
-
-.fill-gray-200{
-  fill: #e5e7eb;
 }
 
 .p-10{
@@ -927,16 +941,16 @@ nav{
   padding: 0.75rem;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .p-5{
   padding: 1.25rem;
 }
 
 .p-8{
   padding: 2rem;
-}
-
-.p-4{
-  padding: 1rem;
 }
 
 .px-10{
@@ -994,11 +1008,6 @@ nav{
   padding-bottom: 2rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1013,6 +1022,14 @@ nav{
 
 .pt-10{
   padding-top: 2.5rem;
+}
+
+.pr-2{
+  padding-right: 0.5rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
 }
 
 .text-center{
